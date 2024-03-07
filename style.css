@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+img {
+
+    height: 120px;
+    width: 100%;
+}
+
+#havana {
+    background-image: url('imagens/havana.jpeg');
+    color: whitesmoke;
+}
+
+#marciano {
+    background-image: url('imagens/zoro.jpeg');
+    color: whitesmoke;
+}
+
+#pablo {
+    background-image: url('imagens/pablo.jpeg');
+    color: whitesmoke;
+}
+
+#eric {
+    background-image: url('imagens/eric.jpeg');
+    color: whitesmoke;
+}
+
+
+h1 {
+    font-size: 2000%;
+}
+
+#havana_p{
+    font-size: 500%;
+}
