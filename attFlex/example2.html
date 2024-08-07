@@ -5,39 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Example 2: Alinhamento Vertical</title>
     <style>
-        .flex-container{
-            height: 45vw;
+        *
+        {
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex-container
+        {
+            height: 100vh;
+            width: auto;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            text-align: center;
-            
+            row-gap: 15px;
+        }
 
+        div 
+        {
+            width: 30vh;
         }
         
-        #div1{
+        p 
+        {
+            padding: 5px;
+        }
+
+        #div1
+        {
             background-color: red;
-            height: 10vw;
-            width: 30vw;
+            height: 20vh;
+        }
         
-        }
-        #div2{
+        #div2
+        {
             background-color: green;
-            height: 15vw;
-            width: 30vw;
-          
+            height: 30vh;
         }
-        #div3{
+        
+        #div3
+        {
             background-color: aqua;
-            height: 20vw;
-            width: 30vw;
-          
+            height:  40vh;   
         }
     </style>
 </head>
 <body>
     <main>
+    
         <div class="flex-container">
             <div id = "div1"> coluna 1</div>
             <div id = "div2"> coluna 2 </div>   
