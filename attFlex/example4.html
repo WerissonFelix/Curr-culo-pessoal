@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 3:  Distribuição de Espaço</title>
+    <style>
+        .flex-container{
+            
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 100vw;  
+        }
+        
+        #div1{
+            background-color: red;
+            order: 3;
+            width: max-content;
+            padding: 1vw;
+        }
+        #div2{
+            background-color: green;
+            order: 1;
+            width: max-content;
+            padding: 1vw;
+        }
+        #div3{
+            background-color: aqua;
+            order: 4;
+            width: max-content;
+            padding: 1vw;
+        }
+        #div4{
+            background-color: rgb(238, 255, 0);
+            order: 2;
+            width: max-content;
+            padding: 1vw;
+           
+        }
+        #div5{
+            background-color: rgb(234, 0, 255);
+            order: 5;
+            width: max-content;
+            padding: 1vw;
+          
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="flex-container">
+            <div id = "div1"> item 1</div>
+            <div id = "div2"> item 2 </div>   
+            <div id = "div3"> item 3</div>   
+            <div id = "div4"> item 4</div>   
+            <div id = "div5"> item 5</div>   
+        </div>
+    </main>
+    
+</body>
+</html>

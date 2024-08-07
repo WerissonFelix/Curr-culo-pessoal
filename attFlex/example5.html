@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 5 :  Layout Complexo com Flexbox</title>
+    <style>
+        #cabeçalhio{
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+        .flex-container{
+            display: flex;
+
+        }
+        #rodape{
+            background-color: brown;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div id = 'cabeçalhio'>
+        <header> cabeçalhio </header>
+    </div>
+    <main>
+        <div class="flex-container">
+            <div id = "lateral"> <aside>lateral</aside></div>
+            <div id = "principal"> 
+                <article> 
+                    s
+                principal 
+
+                </article>
+            </div>
+        </div>
+    </main>    
+    <div id = "rodape">
+        <footer> footer </footer>
+    </div>
+</body>
+</html>
