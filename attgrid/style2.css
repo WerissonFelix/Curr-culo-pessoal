@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    height: 100vh;
+    margin: 0;
+
+    display: grid;
+    grid-template-areas: "h h h h h h h h h h"
+                         "h h h h h h h h h h"  
+                         "n m m m m m m m m m"
+                         "n m m m m m m m m m"
+                         "n m m m m m m m m m"
+                         "n m m m m m m m m m"
+                         "n m m m m m m m m m"
+                         "f f f f f f f f f f";
+    gap: 15px;                     
+}
+
+header{
+    background-color: darkturquoise;
+    grid-area: h;
+}
+
+nav{
+    background-color: green;
+    grid-area: n;
+
+}
+
+main{
+    background-color: wheat;    
+    grid-area: m;
+}
+
+
+footer{
+    background-color: gray ;
+    grid-area: f;
+}
